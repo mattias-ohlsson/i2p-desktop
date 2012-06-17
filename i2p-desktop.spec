@@ -10,7 +10,10 @@ License:	Public domain
 URL:		http://ipredia.org
 Source0:	%{name}-%{version}.tar.bz2
 
-#BuildRequires:	
+## BuildRequires
+# desktop-file-utils  - desktop-file-install (Makefile)
+
+BuildRequires:	desktop-file-utils
 
 ## Requires
 # xdg-utils           - xdg-open
