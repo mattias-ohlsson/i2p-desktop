@@ -17,8 +17,7 @@ BuildRequires:	desktop-file-utils
 
 ## Requires
 # xdg-utils           - xdg-open
-# desktop-file-utils  - desktop-file-install
-#                     - update-desktop-database
+# desktop-file-utils  - update-desktop-database
 # i2p                 - for the i2p console
 
 Requires:	  i2p
