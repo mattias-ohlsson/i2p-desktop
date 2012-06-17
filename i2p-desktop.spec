@@ -41,7 +41,7 @@ This package add a desktop file for the I2P Router Console.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-make install DESTDIR=$RPM_BUILD_ROOT
+make install PREFIX=$RPM_BUILD_ROOT
 
 
 %post
