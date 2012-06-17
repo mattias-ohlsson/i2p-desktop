@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=I2P
+GenericName=I2P Router Console
+Comment=Start I2P Router Console
+Exec=xdg-open http://localhost:7657
+Icon=i2p-logo-icon
+Terminal=false
+Type=Application
+Categories=Network;X-I2P;
