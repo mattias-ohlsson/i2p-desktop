@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=I2P
 GenericName=I2P Router Console
-GenericName=[sv_SE]=I2P Routerkonsoll
+GenericName[sv_SE]=I2P Routerkonsoll
 Comment=Start I2P Router Console
 Comment[sv_SE]=Starta routerkonsollen för I2P
 Exec=xdg-open http://localhost:7657
