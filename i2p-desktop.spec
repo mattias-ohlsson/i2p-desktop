@@ -37,8 +37,6 @@ This package add a desktop file for the I2P Router Console.
 
 
 %build
-%configure
-make %{?_smp_mflags}
 
 
 %install
