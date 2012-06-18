@@ -55,7 +55,7 @@ make install PREFIX=$RPM_BUILD_ROOT
 %files
 %doc
 %{_datadir}/applications/i2p-router-console.desktop
-
+%{_datadir}/icons/hicolor/*/apps/i2p-router-console.*
 
 %changelog
 

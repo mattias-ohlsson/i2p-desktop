@@ -7,6 +7,9 @@ install:
 	# We need to specify dir to use the prefix 
 	@desktop-file-install --dir=${PREFIX}/usr/share/applications/ \
 	 i2p-router-console.desktop
+	# Install the i2p icon
+	@install -D icons/scalable/i2p-router-console.svg \
+	 ${PREFIX}/usr/share/icons/hicolor/scalable/apps/i2p-router-console.svg
 	@echo "Do not forget to run update-desktop-database"
 
 archive:
