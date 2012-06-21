@@ -5,8 +5,9 @@ Summary:	I2P Router Console desktop file
 
 Group:		Applications/Internet
 
-# From www.i2p2.de/licenses.html
-License:	Public domain
+# License from www.i2p2.de/licenses.html
+# and http://projects.gnome.org/evince/
+License:	GPLv2 and Public Domain
 URL:		http://ipredia.org
 Source0:	%{name}-%{version}.tar.bz2
 
