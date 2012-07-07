@@ -1,5 +1,5 @@
 Name:		i2p-desktop
-Version:	0.5
+Version:	0.6
 Release:	1%{?dist}
 Summary:	I2P Router Console desktop file
 
@@ -59,6 +59,9 @@ make install PREFIX=$RPM_BUILD_ROOT
 %{_datadir}/icons/hicolor/*/apps/i2p-router-console.*
 
 %changelog
+* Sat Jul 7 2012 Mattias Ohlsson <mattias.ohlsson@inprose.com> - 0.6-1
+- add more languages
+
 * Mon Jun 21 2012 Mattias Ohlsson <mattias.ohlsson@inprose.com> - 0.5-1
 - new icon
 
